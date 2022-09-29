@@ -2,5 +2,5 @@
 main()
 {
 int a=2;
-printf("The incremented value of a is = %d", a++);
+printf("The incremented value of a is = %d", ++a);
 }

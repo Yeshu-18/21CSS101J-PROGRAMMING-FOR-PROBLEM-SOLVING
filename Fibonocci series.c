@@ -10,10 +10,10 @@ int main() {
   printf("Enter the number of terms: ");
   scanf("%d", &n);
 
-  printf("Fibonacci Series: %d, %d, ", t1, t2);
+  printf("Fibonacci Series: \n%d\n%d\n", t1, t2);
 
   for (i=3; i<=n; ++i) {
-    printf("%d, ", nextterm);
+    printf("%d\n", nextterm);
     t1 = t2;
     t2 = nextterm;
     nextterm = t1 + t2;

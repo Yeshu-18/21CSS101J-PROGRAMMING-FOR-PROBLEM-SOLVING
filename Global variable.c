@@ -1,5 +1,5 @@
 #include <stdio.h>
-int b;
+int b;       //b is a GLOBAL VARIABLE
 int main(){
   int a=10;
   b=a;

@@ -1,18 +1,15 @@
 #include <stdio.h>
-
 int main() {
-
-    double num;
+    printf("Roll number = RA2211042010017\n");
+    int num;
     printf("Enter a number: ");
-    scanf("%lf", &num);
-    if (num <= 0.0) {
-        if (num == 0.0)
-            printf("You entered 0.");
+    scanf("%d", &num);
+    if (num <= 0) {
+        if (num == 0)
+            printf("The number is 0");
         else
-            printf("You entered a negative number.");
+            printf("The number is a negative number");
     } 
     else
-        printf("You entered a positive number.");
-
-    return 0;
+        printf("The number is a positive number");
 }

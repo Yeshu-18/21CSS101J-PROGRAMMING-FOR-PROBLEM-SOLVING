@@ -1,18 +1,16 @@
 #include <stdio.h>
 int main() 
 {
+  printf("Roll number = RA2211042010017\n");
   int first, second, temp;
   printf("Enter the first number: ");
   scanf("%d", &first);
   printf("Enter the second number: ");
   scanf("%d", &second);
-
   temp = first;
   first = second;
   second = temp;
-  
-  printf("\nFirst number after swapping is = %d", first);
-  printf("\nSecond number after swapping is = %d", second);
-  return 0;
+  printf("First number after swapping is = %d\n", first);
+  printf("Second number after swapping is = %d\n", second);
 }
   
